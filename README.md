@@ -4,12 +4,12 @@ This is a server for a meal planner app, current state is MVP.
 
 ## Description
 
-The MVP was developed as part of a full-stack web app for a real project. A team of four developers and one UI/UX designer (all [Codaisseur](https://codaisseur.com/) graduates) worked to develop/design it. 
+The MVP was developed as part of a full-stack web app for a real world project. A team of four developers and one UI/UX designer (all [Codaisseur](https://codaisseur.com/) graduates) worked to develop/design it. 
 
 The goal was to develop the basic features for a meal planner that helps people plan healthier meals more efficiently. It also included:
 - creating user accounts
 - a recipes' list
-- a shopping list that included all the necessary ingredients in the right quantity (calculated for the number of household members)
+- generating a shopping list that included all the necessary ingredients in the right quantity (calculated for the number of household members)
 
 This planner gives its users access to quality recipes, but it does not allow a user to add their own recipes. Only an admin could add recipes to the data base. 
 
@@ -20,7 +20,7 @@ The backend exposes a REST API.
 * Sign in/Log in page: helps the user create a secured user account that offers access to a personal weekly meal planner and a personalized shopping list.
 * Meal Planner Page: displays a personal planner that starts with seven random recipes (retrieved from a PosgreSQL database run on Heroku's servers). 
 * Each recipe presents the ingredients calculated for the entire household (for children only half of the adult amount is calculated).
-* Change recipe button: gives the user the option to change a recipe from the planner with another one from the recipes' list.
+* Change recipe button: gives the user the option to change a recipe from the planner with another one from the recipes list.
 * Add to (shopping) list button: creates a shopping list by either adding the ingredients for all recipes at once **or** for one recipe at a time.
 * Shopping cart button: displays the shopping list.
 * Print / Clear buttons: help the user to print or clear the shopping list. 
@@ -63,7 +63,7 @@ The backend exposes a REST API.
 * [Loize Dalco](https://loized.com/) - [UX/ UI Designer](https://www.linkedin.com/in/loize-dalco/)
 * [Sabina Dhaugoda](https://github.com/sabeenski) - [Junior FullStack Developer](https://www.linkedin.com/in/sabinadhaugoda/)
 
-Working on a real project in an agile team that included a well prepared Project Owner, a great UI/UX Designer and three hard working and solution oriented developers was a great opportunity and fun experience that came with so much learning and professional growth.
+Working on a real world project in an agile team that included a well prepared Project Owner, a great UI/UX Designer and three hard working and solution oriented developers was a great opportunity and fun experience that came with so much learning and professional growth.
 
 Good planning, SCRUM, open communication and a constant focus on priorities helped us deliver the required MVP in two weeks and for that I'd like to thank my teammates for their grit, determination, humor and positive attitude.
 
