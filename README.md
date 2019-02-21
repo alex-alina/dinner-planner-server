@@ -1,6 +1,27 @@
 ## Meal Planner - Server
 
 This is a server for a meal planner app, current state is MVP.
+* The project was initially started in a private repository on Bitbucket, then added to this Github public repo, which makes the pull requests’ summary unavailable here. A list of my commits can be seen [here](https://github.com/alex-alina/dinner-planner-server/commits?author=alex-alina)
+
+## Demo
+[Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
+![](video_meal.gif)
+
+## Tech stack
+* TypeScript
+* Koa
+* routing-controllers
+* TypeORM
+* PostgreSQL 
+
+## MVP's Features:
+* Sign in/Log in page
+* Meal Planner Page 
+* Change recipe button
+* Add to (shopping) list button
+* Shopping cart button, displays the shopping list
+* Print Shopping List / Clear Shopping List buttons 
+* Log out button
 
 ## Description
 
@@ -15,38 +36,16 @@ This planner gives its users access to quality recipes, but it does not allow a 
 
 The backend exposes a REST API. 
 
-#### The MPV includes the following features:
-
-* Sign in/Log in page: helps the user create a secured user account that offers access to a personal weekly meal planner and a personalized shopping list.
-* Meal Planner Page: displays a personal planner that starts with seven random recipes (retrieved from a PosgreSQL database run on Heroku's servers). 
-* Each recipe presents the ingredients calculated for the entire household (for children only half of the adult amount is calculated).
-* Change recipe button: gives the user the option to change a recipe from the planner with another one from the recipes list.
-* Add to (shopping) list button: creates a shopping list by either adding the ingredients for all recipes at once **or** for one recipe at a time.
-* Shopping cart button: displays the shopping list.
-* Print / Clear buttons: help the user to print or clear the shopping list. 
-* Log out button: redirects the user to the Log in page.
-
-
-#### Out of scope for this MVP:
+### Out of scope for this MVP:
 
 * Creating an admin account or endpoints to add recipes were out of scope for this project so the recipes were added to the database by writing and running an SQL script with DBeaver. 
 
-#### Endpoints: 
+### Endpoints: 
 
 * `POST /users`: sign up as new user
 * `POST /logins`: log in and receive a JWT
 * `GET /recipes`: list all recipes
 * `GET /recipes/:id([0-9]+)`: list one recipe
-
-## Tech stack
-* TypeScript
-* Koa
-* routing-controllers
-* TypeORM
-* PostgreSQL 
-
-## Demo
-[Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
 
 ## Setup
 
@@ -55,6 +54,9 @@ The backend exposes a REST API.
 * Start the server using `npm start`
 * Start compiling using `nmp run compile`
 * You can now access endpoints with HTTPie commands on `localhost:4000`
+
+## Contributions:
+
 
 ## Authors and acknowledgment
 * Alina Rusu (me) - [Junior Full-Stack Web-developer](https://www.linkedin.com/in/alina-rusu/)
