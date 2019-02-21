@@ -56,7 +56,12 @@ The backend exposes a REST API.
 * You can now access endpoints with HTTPie commands on `localhost:4000`
 
 ## Contributions:
-
+* Set up the project and first private remote repo on Bitbucket.
+* Created the models and routing controllers for users, login, and recipes.
+* Created the database models and their relations for recipes, ingredients, planner, recipeingredients, units and users.
+* Deployed server on Heroku.
+* Wrote SQL script to add data in the Postgres database managed by Heroku.
+* Populated the Postgress database managed by Heroku with the recipes received from the PO, using Dbeaver.
 
 ## Authors and acknowledgment
 * Alina Rusu (me) - [Junior Full-Stack Web-developer](https://www.linkedin.com/in/alina-rusu/)
