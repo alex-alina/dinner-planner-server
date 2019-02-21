@@ -1,7 +1,7 @@
 ## Meal Planner - Server
 
 This is a server for a meal planner app, current state is MVP.
-* The project was initially started in a private repository on Bitbucket, then added to this Github public repo, which makes the pull requests’ summary unavailable here. A list of my commits can be seen [here](https://github.com/alex-alina/dinner-planner-server/commits?author=alex-alina)
+* The project was initially started in a private repository on Bitbucket, then added to this Github public repo, which makes the pull requests’ summary unavailable here. A list of my commits can be seen [here](https://github.com/alex-alina/dinner-planner-server/commits?author=alex-alina).
 
 ## Demo
 [Working MVP Demo](https://loized.com/img/meal/video_meal.gif)
